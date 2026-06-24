@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Dumbbell, MessageSquare, Calculator, BookOpen } from "lucide-react";
+import { Dumbbell, MessageSquare, Calculator, BookOpen, CalendarDays } from "lucide-react";
 
 const links = [
   { href: "/", label: "首页", icon: null },
   { href: "/exercises", label: "动作库", icon: BookOpen },
+  { href: "/plan", label: "训练计划", icon: CalendarDays },
   { href: "/chat", label: "AI 教练", icon: MessageSquare },
   { href: "/calories", label: "热量计算", icon: Calculator },
 ];
